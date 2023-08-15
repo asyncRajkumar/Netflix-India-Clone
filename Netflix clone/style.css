@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&family=Rubik+Puddles&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    color: white;
+}
+.total{
+    background-color: #000000da;
+}
+.header {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(Img/back.jpg);
+    width: 100%;
+    height: 117vh;
+    background-color: #000000da;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 7.4px;
+}
+
+.header .logo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header .logo img {
+    width: 150px;
+    margin: 25px 0 0 150px;
+}
+
+.header .logo .language {
+    margin: 25px 150px 0 0;
+}
+
+.header .logo button {
+    width: 123px;
+    height: 32px;
+    border-radius: 4px;
+
+}
+
+.header .logo .w1 {
+    background: transparent;
+    border: .9px solid white;
+    margin-right: 31px;
+}
+
+.header .logo .w1 i {
+    margin: 0 8px;
+    color: white;
+}
+
+.header .logo .w2 {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    width: 72px;
+    cursor: pointer;
+}
+
+.header .container {
+    color: white;
+    background: transparent;
+    position: absolute;
+    top: 47%;
+    left: 15%;
+    text-align: center
+}
+
+.header .container h1 {
+    font-size: 51px;
+    font-weight: 800;
+    background: transparent;
+}
+
+.header .container h3 {
+    font-size: 24px;
+    margin: 19px 0;
+    background: transparent;
+}
+
+.header .container p {
+    font-size: 20px;
+    margin-top: 29px;
+    background: transparent;
+}
+
+.header .container input {
+    width: 354px;
+    height: 50px;
+    border-radius: 4px;
+    background: transparent;
+    padding-left: 14px;
+    font-size: 15px;
+    background-color: rgba(44, 40, 40, 0.205);
+    color: white;
+    border: 0.5px solid white
+}
+
+.header .container button {
+    width: 181px;
+    height: 53px;
+    border-radius: 4px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    position: relative;
+    top: 2.7px;
+    font-size: 24px;
+    font-weight: 510;
+    margin: 18px 0 0 4px;
+    cursor: pointer;
+}
+
+.header .container button:hover {
+    background-color: rgb(196, 29, 29);
+}
+.features .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: black;
+    padding: 60px 140px;
+    margin: 7.4px 0;
+}
+
+.features .text {
+    flex-basis: 50%;
+}
+
+.features .text h1 {
+    font-size: 48px;
+}
+
+.features .text p {
+    font-size: 24px;
+}
+
+.features .img {
+    flex-basis: 50%;
+}
+
+.features .img img {
+    width: 90%;
+}
+
+.faq {
+    background-color: black;
+    padding-bottom: 76px;
+    text-align: center;
+    margin: 7.4px 0;
+}
+
+.faq h1 {
+    font-size: 48px;
+    padding: 74px 0 23px 0;
+    text-align: center;
+}
+
+.faq button {
+    height: 84px;
+    width: 898px;
+    background-color: rgba(137, 133, 133, 0.311);
+    margin-bottom: 8px;
+    font-size: 24px;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+.faq .acc button span {
+    position: relative;
+    bottom: 6px;
+    margin-right: 642px;
+}
+
+.faq .acc button i {
+    font-size: 44px;
+}
+
+.faq .acc2 button span {
+    position: relative;
+    bottom: 6px;
+    margin-right: 497px;
+}
+
+.faq .acc2 button i {
+    font-size: 44px;
+}
+
+.faq .acc3 button span {
+    position: relative;
+    bottom: 6px;
+    margin-right: 600px;
+}
+
+.faq .acc3 button i {
+    font-size: 44px;
+}
+
+.faq .acc4 button span {
+    position: relative;
+    bottom: 6px;
+    margin-right: 626px;
+}
+
+.faq .acc4 button i {
+    font-size: 44px;
+}
+
+.faq .acc5 button span {
+    position: relative;
+    bottom: 6px;
+    margin-right: 505px;
+}
+
+.faq .acc5 button i {
+    font-size: 44px;
+}
+
+.faq .acc6 button span {
+    position: relative;
+    bottom: 6px;
+    margin-right: 558px;
+}
+
+.faq .acc6 button i {
+    font-size: 44px;
+}
+
+.faq button:hover {
+    background-color: rgba(222, 218, 218, 0.311);
+}
+
+.faq p {
+    font-size: 20px;
+    margin-top: 44px;
+}
+
+.faq .last input {
+    width: 354px;
+    height: 50px;
+    border-radius: 4px;
+    background: transparent;
+    padding-left: 14px;
+    font-size: 15px;
+    background-color: rgba(84, 103, 143, 0.427);
+    color: white;
+    border: 1.4px solid rgb(21, 129, 71);
+}
+
+.faq .last button {
+    width: 181px;
+    height: 53px;
+    border-radius: 4px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    position: relative;
+    top: 2.7px;
+    font-size: 24px;
+    font-weight: 510;
+    margin: 18px 0 0 4px;
+    cursor: pointer;
+}
+
+.faq .last button:hover {
+    background-color: rgb(196, 29, 29);
+}
+
+.footer {
+    background-color: black;
+    padding: 60px 0px 35px 0;
+    margin-top: 7.4px;
+}
+
+.footer p {
+    margin-left: 12%;
+    font-size: 16px;
+    margin-bottom: 33px;
+    color: #ffffffb3;
+}
+
+.footer span {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #ffffffb3;
+}
+
+.footer1 {
+    padding-right: 297px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer1 ul li {
+    list-style: none;
+    text-decoration: underline;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ffffffb3;
+    line-height: 37px;
+}
+
+.lan button {
+    width: 123px;
+    height: 32px;
+    border-radius: 4px;
+    background: transparent;
+    border: .9px solid #ffffffb3;
+    ;
+    margin: 33px 0px 28px 154px;
+}
+
+.lan .r1 i {
+    margin: 0 8px;
+    color: #ffffffb3;
+}
+
+.lan p {
+    font-size: 14px;
+    color: #ffffffb3;
+}
